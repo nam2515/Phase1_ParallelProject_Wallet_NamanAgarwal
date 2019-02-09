@@ -46,7 +46,7 @@ public class Client {
 					validateMobileNumber(mobileno);
 					System.out.println("Enter the amount you want to add in wallet: ");
 					amount=validateAmount(sc.nextBigDecimal());
-					wsi.createAccount(name, mobileno, amount);
+					System.out.println("Account created successfully.\n"+wsi.createAccount(name, mobileno, amount));					
 					break;
 					
 			case 2:  
@@ -88,7 +88,7 @@ public class Client {
 			case 6: System.out.println("Enter the mobile number of which you want to print the transaction" );
 			        mobileno=sc.next();
 					System.out.println(wsi.printTransaction(mobileno));
-			 		
+			 		break;
 			case 7: System.exit(0);
 			
 			default: System.out.println("You entered the wrong choice..!!");

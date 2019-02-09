@@ -14,11 +14,11 @@ import com.capgemini.exceptions.MobileNumberAlreadyExist;
 import com.capgemini.repo.WalletRepo;
 
 public class WalletServiceImpl implements WalletService {
-	String id="BNK5220";
 	WalletRepo walrepo;
 	Customer customer;
 	Wallet wallet;
 	Transaction transaction;
+	
 	public WalletServiceImpl(WalletRepo walrepo) {
 		super();
 		this.walrepo = walrepo;

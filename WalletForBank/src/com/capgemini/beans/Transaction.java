@@ -37,7 +37,10 @@ public class Transaction {
 	
 	@Override
 	public String toString() {
-		return "Transaction [mobileno=" + mobileno + ", deposit=" + deposit + ", withdraw=" + withdraw
-				+ ", total=" + total + "]";
+		return "Transaction: \n"
+			   +"mobileno: " + mobileno +" \n"
+			   +"deposit: " + deposit + "\n"
+			   +"withdraw:" + withdraw +"\n"
+			   +"total:" + total + "\n";
 	}
 }

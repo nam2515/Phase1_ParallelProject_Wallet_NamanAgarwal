@@ -15,7 +15,7 @@ public class Wallet {
 
 	@Override
 	public String toString() {
-		return "Wallet [balance=" + balance + "]";
+		return " balance:" + balance + "\n";
 	}
 	
 

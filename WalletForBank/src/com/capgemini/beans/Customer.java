@@ -35,7 +35,9 @@ public class Customer {
 	}
 	@Override
 	public String toString() {
-		return "Customer [name=" + name + ", mobileno=" + mobileno + ", wallet=" + wallet + ", list=" + list + "]";
+		return "name:" + name + "\n" 
+			  +"mobileno:" + mobileno + "\n"
+			  +"wallet:" + wallet+"\n" ;
 	}
 	
 }
